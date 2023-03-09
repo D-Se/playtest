@@ -1,2 +1,2 @@
 "A broken function problem"
-f(x) = x + 2
+plustwo(x) = x + 2

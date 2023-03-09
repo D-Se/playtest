@@ -1,8 +1,8 @@
-using playtest
+using Playtest
 using Test
 
 @testset "playtest.jl" begin
-    @test f(5) == 6                 broken = true
-    @test h(50) == 150
-    @test h(50.0) == 150
+    @test plustwo(5) == 6                 broken = true
+    @test plusx(50) == 150
+    @test plusx(50.0) == 150
 end

@@ -1,8 +1,8 @@
-module playtest
+module Playtest
 
 include("broken.jl")
 include("optimization.jl")
 include("refactor.jl")
-export f, g, h
+export plustwo, squared_sum, plusx
 
 end
